@@ -125,11 +125,30 @@ Scenarios:
 Open answer:
 
 1. Describe the purpose and functionality of the `tar` command in the command line. Provide an example of how you would use it to create a compressed archive.
+tar creates a compress archive. Ex.: tar -cvf hello.tar
 
 2. Explain the difference between the commands `git add`, `git commit`, and `git push` in Git version control. How do these commands contribute to the version control process?
+git add stages a file to be committed while git commit commits a the file. It helps modified files be prepare to be committed into git.
 
 3. Suppose you have a file named "example.txt" in your current directory, and you want to remove it using the command line. Describe the steps and the specific command you would use, including any additional options.
+You use the command rm. Once typed, add the file you want to remove.
 
 4. Discuss the significance of the symbols "~", "/", ".", and ".." in the command line. How are these symbols commonly used, and what do they represent in the context of navigating the file system?
+'~' is home directory while '/' is the root directory. '.' is the current directory while '..' goes back to previous directory.
 
 5. Imagine you are working on a software project and need to create a new branch in Git for a feature named "new-feature." Explain the steps you would take, including the specific commands, to create and switch to this new branch in your Git repository.
+git clone "remote repository https"
+cd ~
+ls
+mkdir myfirstdir
+ls
+cd myfirstdir/
+touch myfile.txt
+ls
+git init
+git status
+git add myfile.txt
+git status
+git commit
+git log
+git checkout -u origin new-feature
