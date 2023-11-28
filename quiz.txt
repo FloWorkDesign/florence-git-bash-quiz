@@ -1,0 +1,255 @@
+Multiple Choice.
+
+1. What command is used to create a new directory in the command line?
+   a. mkdir
+   b. touch
+   c. cd
+   d. ls
+
+2. Which command is used to change the current working directory?
+   a. touch
+   b. mkdir
+   c. cd
+   d. ls
+
+3. In the command line, what symbol represents the home directory?
+   a. ~
+   b. /
+   c. *
+   d. >>
+
+4. What command is used to list the contents of a directory in the command line?
+   a. ls
+   b. cd
+   c. mkdir
+   d. touch
+
+5. In the command line, what symbol represents the root directory?
+   a. /
+   b. ~
+   c. *
+   d. ..
+
+6. Which command is used to remove a file in the command line?
+   a. rm
+   b. cp
+   c. mv
+   d. ls
+
+7. What command is used to create an empty file in the command line?
+   a. mkdir
+   b. touch
+   c. ls
+   d. cd
+
+8. In the command line, what does the ">>" operator do?
+   a. Appends the output to a file
+   b. Creates a new directory
+   c. Lists all files in the directory
+   d. Changes the working directory
+
+9. In the command line, what does the "." represent?
+   a. The home directory
+   b. The parent directory
+   c. The current directory
+   d. The root directory
+
+10. What does "git add" do in Git version control?
+    a. Adds a new file to the repository
+    b. Commits changes to the repository
+    c. Stages changes for commit
+    d. Deletes a file from the repository
+
+11. Which Git command is used to commit changes?
+    a. git push
+    b. git add
+    c. git commit
+    d. git status
+
+12. What Git command is used to push changes to a remote repository?
+    a. git pull
+    b. git push
+    c. git clone
+    d. git branch
+
+13. What command is used to create a compressed archive of files and directories?
+    a. tar
+    b. gzip
+    c. cp
+    d. mv
+
+14. In Git, what does "git clone" do?
+    a. Creates a new branch
+    b. Clones a remote repository
+    c. Commits changes
+    d. Pushes changes to the repository
+
+15. What does the "cp" command do in the command line?
+    a. Copies files or directories
+    b. Moves files or directories
+    c. Creates a new file
+    d. Lists the contents of a directory
+
+16. What is the purpose of the "mv" command in the command line?
+    a. Moves files or directories
+    b. Copies files or directories
+    c. Creates a new file
+    d. Removes a file
+
+17. What does "git pull" do in Git version control?
+    a. Pushes changes to a remote repository
+    b. Pulls changes from a remote repository
+    c. Creates a new branch
+    d. Lists the commit history
+
+18. What command is used to display the commit history in Git?
+    a. git status
+    b. git log
+    c. git branch
+    d. git commit
+
+19. In the command line, what does the "rm" command do?
+    a. Removes a file
+    b. Renames a file
+    c. Copies a file
+    d. Moves a file
+
+20. What does "git status" display in Git version control?
+    a. The commit history
+    b. The current branch
+    c. The status of changes
+    d. The contents of the repository
+
+Scenarios:
+
+1. You want to create a new directory named "Documents" in your home directory. What command would you use?
+   a. `mkdir Documents`
+   b. `touch Documents`
+   c. `cd Documents`
+   d. `ls Documents`
+
+2. You are currently in the "Downloads" directory and want to go back to your home directory. What command would you use?
+   a. `cd /`
+   b. `cd ..`
+   c. `cd ~`
+   d. `cd .`
+
+3. You have a file named "report.txt" in your current directory and want to remove it. What command would you use?
+   a. `rm report.txt`
+   b. `mv report.txt trash/`
+   c. `cp report.txt /dev/null`
+   d. `ls -l report.txt`
+
+4. You want to list all files in the current directory, including hidden files. What command would you use?
+   a. `ls -a`
+   b. `ls -l`
+   c. `ls -h`
+   d. `ls -R`
+
+5. You have a file named "draft.txt" and want to append the text "Final version" to it. What command would you use?
+   a. `echo "Final version" > draft.txt`
+   b. `cat "Final version" >> draft.txt`
+   c. `mv draft.txt "Final version"`
+   d. `cp "Final version" draft.txt`
+
+6. You want to create a compressed archive of a directory named "project" using tar and gzip. What command would you use?
+   a. `tar -cvzf project.tar.gz project/`
+   b. `gzip -c project > project.tar.gz`
+   c. `tar -xzvf project.tar.gz`
+   d. `gzip -r project > project.tar.gz`
+
+7. You made changes to several files in your Git repository and want to stage them for commit. What command would you use?
+   a. `git stage -a`
+   b. `git commit -m "Staged changes"`
+   c. `git add .`
+   d. `git status`
+
+8. You accidentally deleted a file named "important.doc" and want to restore it from the previous commit in Git. What command would you use?
+   a. `git restore important.doc`
+   b. `git checkout important.doc`
+   c. `git revert important.doc`
+   d. `git reset --hard HEAD`
+
+9. You want to check the status of your Git repository, including information about tracked and untracked files. What command would you use?
+   a. `git info`
+   b. `git status`
+   c. `git log`
+   d. `git branch`
+
+10. You have a file named "image.png" in your current directory and want to move it to a subdirectory named "pictures." What command would you use?
+    a. `mv image.png pictures/`
+    b. `cp image.png pictures/`
+    c. `mv image.png ../pictures/`
+    d. `cp image.png ../pictures/`
+
+11. You want to create a new branch in your Git repository named "feature-branch" and switch to it. What command would you use?
+    a. `git create feature-branch`
+    b. `git switch -b feature-branch`
+    c. `git branch feature-branch`
+    d. `git checkout -b feature-branch`
+
+12. You want to clone a Git repository from a remote server named "example.git." What command would you use?
+    a. `git clone example.git`
+    b. `git pull example.git`
+    c. `git fetch example.git`
+    d. `git init example.git`
+
+13. You have multiple branches in your Git repository and want to see a graphical representation of the commit history. What command would you use?
+    a. `git log`
+    b. `git branch -graph`
+    c. `git log --graph`
+    d. `git show-branch`
+
+14. You want to rename a file named "oldfile.txt" to "newfile.txt" in the command line. What command would you use?
+    a. `mv oldfile.txt newfile.txt`
+    b. `cp oldfile.txt newfile.txt`
+    c. `rename oldfile.txt newfile.txt`
+    d. `change oldfile.txt newfile.txt`
+
+15. You have a Git repository with uncommitted changes, and you want to discard these changes and revert to the last committed state. What command would you use?
+    a. `git reset --hard HEAD`
+    b. `git checkout -- .`
+    c. `git revert HEAD`
+    d. `git stash`
+
+16. You want to push changes from a local branch named "feature" to a remote repository named "origin." What command would you use?
+    a. `git push feature origin`
+    b. `git push origin feature`
+    c. `git remote add origin feature`
+    d. `git branch --push origin feature`
+
+17. You want to view the detailed information about the last three commits in your Git repository. What command would you use?
+    a. `git log -3`
+    b. `git log --last 3`
+    c. `git log --tail 3`
+    d. `git log --recent 3`
+
+18. You want to create a copy of a directory named "backup" within the same parent directory. What command would you use?
+    a. `cp -r backup/ backup_copy/`
+    b. `mv backup/ backup_copy/`
+    c. `cp -a backup/ backup_copy/`
+    d. `cp backup/ backup_copy/ -recursive`
+
+19. You want to list all files in the current directory and its subdirectories, including hidden files. What command would you use?
+    a. `ls -R`
+    b. `ls -l`
+    c. `ls -a`
+    d. `ls -lh`
+
+20. You have multiple branches in your Git repository and want to switch to a branch named "bugfix." What command would you use?
+    a. `git switch bugfix`
+    b. `git checkout bugfix`
+    c. `git branch -checkout bugfix`
+    d. `git change-branch bugfix`
+
+Open answer:
+
+1. Describe the purpose and functionality of the `tar` command in the command line. Provide an example of how you would use it to create a compressed archive.
+
+2. Explain the difference between the commands `git add`, `git commit`, and `git push` in Git version control. How do these commands contribute to the version control process?
+
+3. Suppose you have a file named "example.txt" in your current directory, and you want to remove it using the command line. Describe the steps and the specific command you would use, including any additional options.
+
+4. Discuss the significance of the symbols "~", "/", ".", and ".." in the command line. How are these symbols commonly used, and what do they represent in the context of navigating the file system?
+
+5. Imagine you are working on a software project and need to create a new branch in Git for a feature named "new-feature." Explain the steps you would take, including the specific commands, to create and switch to this new branch in your Git repository.
